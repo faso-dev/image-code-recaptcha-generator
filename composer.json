@@ -1,0 +1,21 @@
+{
+  "name": "faso-dev/image-code-recaptcha-generator",
+  "description": "Cette librairie permet de générer des recaptcha",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "faso-dev",
+      "email": "faso-dev@protonmail.ch"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "FSDV\\" : "FSDV/src"
+    }
+  },
+  "require": {
+    "ext-gd": "*",
+    "ext-openssl": "*"
+  }
+}
